@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gentelella Alela! | </title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Custom Theme Style -->
+  <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+
+      <!-- top navigation -->
+      <div class="top_nav">
+        <div class="nav_menu">
+          <nav>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="">
+                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                  <img src="images/img.jpg" alt="">User Name
+                  <span class=" fa fa-angle-down"></span>
+                </a>
+                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                  <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- /top navigation -->
+
+      <!-- page content -->
+      <div class="right_col" role="main">
+      
+                <div class="row">
+
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="x_panel">
+                      <div class="x_title">
+                        <h2>Travel Plan Details <small></small></h2>
+                        
+                        <div class="clearfix"></div>
+                      </div>
+                      <div class="x_content">
+
+
+                        <!-- Smart Wizard -->
+                        <div id="wizard" class="form_wizard wizard_horizontal">
+                          <ul class="wizard_steps">
+                            <li>
+                              <a href="#step-1">
+                                <span class="step_no">1</span>
+                                <span class="step_descr">
+                                  Step 1<br />
+                                  <small>Personal Info</small>
+                                </span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#step-2">
+                                <span class="step_no">2</span>
+                                <span class="step_descr">
+                                  Step 2<br />
+                                  <small>Travel Costs</small>
+                                </span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#step-3">
+                                <span class="step_no">3</span>
+                                <span class="step_descr">
+                                  Step 3<br />
+                                  <small>Additional Costs</small>
+                                </span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#step-4">
+                                <span class="step_no">4</span>
+                                <span class="step_descr">
+                                  Step 4<br />
+                                  <small>Others</small>
+                                </span>
+                              </a>
+                            </li>
+                          </ul>
+                          <div id="step-1">
+                            <h2 class="StepTitle">Project Details</h2>
+                            <form class="form-horizontal form-label-left">
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Name &amp Grade <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+
+                             <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Meeting/Institution <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Venue <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+                              
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Dates <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input id="grade" class="datepicker form-control col-md-7 col-xs-12" required="required" type="text" name="grade">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Days Away</label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Justification</label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <textarea id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name"></textarea> 
+                                </div>
+                              </div>
+                            </form>
+
+                          </div>
+                          <div id="step-2">
+                            <h2 class="StepTitle">Budget</h2>
+                            <form class="form-horizontal form-label-left">
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Project <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Budget Line <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+                              
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Estimated travel costs <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input id="grade" class="datepicker form-control col-md-7 col-xs-12" required="required" type="text" name="grade">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Days Away</label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Justification</label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <textarea id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name"></textarea> 
+                                </div>
+                              </div>
+
+                            </form>
+                          </div>
+                          <div id="step-3">
+                            <h2 class="StepTitle">Additional Costs</h2>
+                            <form class="form-horizontal form-label-left">
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Project <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Budget Line <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+                              
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Estimated travel costs <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input id="grade" class="datepicker form-control col-md-7 col-xs-12" required="required" type="text" name="grade">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Days Away</label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Justification</label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <textarea id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name"></textarea> 
+                                </div>
+                              </div>
+
+                            </form>
+                          </div>
+                          <div id="step-4">
+                            <h2 class="StepTitle">Additional Info</h2>
+                            <form class="form-horizontal form-label-left">
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Project <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Budget Line <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+                              
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Estimated travel costs <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input id="grade" class="datepicker form-control col-md-7 col-xs-12" required="required" type="text" name="grade">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Days Away</label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Justification</label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <textarea id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name"></textarea> 
+                                </div>
+                              </div>
+
+                            </form>
+                          </div>
+
+                        </div>
+                        <!-- End SmartWizard Content -->
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+  </html>
